@@ -3,7 +3,7 @@ English description below
 
 MVVM lopakodós játék
 
-Bekerítés nevű beadandó amit 2020/2021 őszi félévében csináltam Eseményvezérelt programozás tárgyból.
+MetalGearLiquid nevű beadandó amit 2020/2021 őszi félévében csináltam Eseményvezérelt programozás tárgyból.
 - WPF
 - MVVM struktúra
 - Fájlból olvasás/betöltés
