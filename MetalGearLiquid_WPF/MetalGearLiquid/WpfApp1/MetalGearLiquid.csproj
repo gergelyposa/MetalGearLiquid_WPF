@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Images\Exit.png" />
+    <None Remove="Images\Guard.jpg" />
+    <None Remove="Images\MetalFloor.png" />
+    <None Remove="Images\Snake.jpg" />
+    <None Remove="Images\Wall.jpg" />
+    <None Remove="Images\Wall_red.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\" />
+    <Folder Include="Persistance\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\Exit.png" />
+    <Resource Include="Images\Guard.jpg" />
+    <Resource Include="Images\MetalFloor.png" />
+    <Resource Include="Images\Snake.jpg" />
+    <Resource Include="Images\Wall.jpg" />
+    <Resource Include="Images\Wall_red.png" />
+  </ItemGroup>
+
+</Project>
